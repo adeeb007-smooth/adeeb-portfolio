@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeeb - Freelance Web Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">Adeeb</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home" class="hero">
+        <div class="hero-content">
+            <h2>Hi, I'm Adeeb.</h2>
+            <h1>I'm a <span class="highlight">Freelance Web Developer</span> based in Kerala.</h1>
+            <p>I build modern, responsive, and beautiful websites for local businesses and individuals.</p>
+            <a href="#work" class="cta-button">See My Work</a>
+        </div>
+    </main>
+
+    <section id="work">
+        <div class="container">
+            <h2>My Work</h2>
+            <p class="section-intro">Here are a few projects I've built. Each one was a great learning experience.</p>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <img src="images/swa.jpg" alt="Swargam Cafe Project">
+                    <h3>Swargam Cafe</h3>
+                    <p>A "from-scratch" website for a fictional local cafe and student store, built with HTML, CSS, and interactive JavaScript.</p>
+                    <a href="https://27652ad4-4251-40f0-80a5-8c8f24357351-00-2b22okbmhad1c.pike.replit.dev/" class="project-button" target="_blank">View Live Project</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/wed.jpg" alt="Crystal Visuals Redesign Project">
+                    <h3>Crystal Visuals Redesign</h3>
+                    <p>A "Before & After" redesign concept for a real wedding photography business, focusing on a clean, elegant, and professional UI.</p>
+                    <a href="https://ad859ef3-4757-4009-81ea-11728265ac1a-00-2o33emfa3mmds.pike.replit.dev/" class="project-button" target="_blank">View Live Project</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/tpn.jpg" alt="The Promised Neverland Fan Site Project">
+                    <h3>TPN Fan Site</h3>
+                    <p>A "passion project" fan site with a dark theme, CSS grid, and an interactive JavaScript "Before & After" image slider.</p>
+                    <a href="https://841a2552-1636-436b-9058-718163c4741d-00-3rf2ugn122w9d.sisko.replit.dev/" class="project-button" target="_blank">View Live Project</a>
+                </div>
+
+            </div>
+        </div>
+           
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-intro">
+                Have a project in mind or just want to say hi? 
+                Feel free to send me a message.
+            </p>
+
+            <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="684d47f8-c02c-49f0-a6c7-cc37c87d6666">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Adeeb. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
